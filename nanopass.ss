@@ -1,7 +1,7 @@
 ;;; Copyright (c) 2000-2018 Dipanwita Sarkar, Andrew W. Keep, R. Kent Dybvig, Oscar Waddell
 ;;; See the accompanying file Copyright for details
 
-(library (nanopass)
+(library (nanopass nanopass)
   (export define-language define-parser define-unparser trace-define-parser
     trace-define-pass echo-define-pass define-pass with-output-language
     nanopass-case language->s-expression extends entry terminals
